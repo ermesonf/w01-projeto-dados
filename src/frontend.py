@@ -19,4 +19,4 @@ class ExcelValidatorUI:
         if error:
             st.error(f"Erro na validação: {error}")
         else:
-            st.succes("O schema do arquivo Excel está correto!")
+            st.success("O schema do arquivo Excel está correto!")
